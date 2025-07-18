@@ -6,7 +6,7 @@
 This repository hosts my professional resume/portfolio website, automatically deployed to GitHub Pages.
 
 ## 🌐 Live Website
-[https://shahramsamar.github.io](shahramsamar.netlify.app/)
+[Go live](shahramsamar.netlify.app/)
 
 ## 🚀 Features
 - Clean, responsive HTML/CSS resume
