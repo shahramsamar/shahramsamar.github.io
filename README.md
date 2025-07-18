@@ -37,42 +37,42 @@ This repository hosts my professional resume/portfolio website, automatically de
 The site automatically deploys on every push to the `main` branch through GitHub Actions:
 name: Deploy Resume to GitHub Pages
 
-on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
-
-permissions:
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-        with:
-          static_site_generator: "none"
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: "."
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+  on:
+    push:
+      branches: ["main"]
+    workflow_dispatch:
+  
+  permissions:
+    pages: write
+    id-token: write
+  
+  concurrency:
+    group: "pages"
+    cancel-in-progress: true
+  
+  jobs:
+    deploy:
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Setup Pages
+          uses: actions/configure-pages@v3
+          with:
+            static_site_generator: "none"
+  
+        - name: Upload artifact
+          uses: actions/upload-pages-artifact@v2
+          with:
+            path: "."
+  
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v2
         
 ## 🛠️ Local Development
 To run locally:
