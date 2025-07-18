@@ -85,7 +85,7 @@ git clone https://github.com/shahramsamar/shahramsamar.github.io.git
 Open index.html in your browser
 
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the **MIT License** - see the LICENSE file for details.
 
 ## 📬 Contact
 Email: [email me](shahramsamar.dev@gmail.com)
