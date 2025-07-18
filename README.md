@@ -22,15 +22,15 @@ This repository hosts my professional resume/portfolio website, automatically de
 
 ## 📂 Repository Structure
 . ├── index.html
- # Main resume HTML file
+ ## Main resume HTML file
    ├── static/ 
- # Static assets (CSS, images)
+ ## Static assets (CSS, images)
    │ └── styles.css 
- # Custom styles
+ ## Custom styles
    ├── .github/workflows/
- # CI/CD workflows
+ ## CI/CD workflows
    │ └── deploy.yml
- # Deployment configuration
+ ## Deployment configuration
    └── README.md 
 # This documentation
 ## 🚄 Automatic Deployment
