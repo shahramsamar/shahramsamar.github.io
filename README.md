@@ -88,7 +88,7 @@ Open index.html in your browser
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 📬 Contact
-Email: shahramsamar2010@gmail.com
+Email: [email me](shahramsamar.dev@gmail.com)
 
 LinkedIn:[shahram samar](https://www.linkedin.com/in/shahram-samar/) 
 
