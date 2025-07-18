@@ -36,7 +36,7 @@ This repository hosts my professional resume/portfolio website, automatically de
 ## 🚄 Automatic Deployment
 The site automatically deploys on every push to the `main` branch through GitHub Actions:
 name: Deploy Resume to GitHub Pages
-
+``` yml
   on:
     push:
       branches: ["main"]
@@ -72,7 +72,7 @@ name: Deploy Resume to GitHub Pages
   
         - name: Deploy to GitHub Pages
           id: deployment
-          uses: actions/deploy-pages@v2
+          uses: actions/deploy-pages@v2```
         
 ## 🛠️ Local Development
 To run locally:
