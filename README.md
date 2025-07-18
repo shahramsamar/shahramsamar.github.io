@@ -72,7 +72,8 @@ name: Deploy Resume to GitHub Pages
   
         - name: Deploy to GitHub Pages
           id: deployment
-          uses: actions/deploy-pages@v2```
+          uses: actions/deploy-pages@v2
+```
         
 ## 🛠️ Local Development
 To run locally:
