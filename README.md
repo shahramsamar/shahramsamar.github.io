@@ -21,17 +21,14 @@ This repository hosts my professional resume/portfolio website, automatically de
 - **Tools**: Git, GitHub, Markdown
 
 ## 📂 Repository Structure
-. ├── index.html
- ## Main resume HTML file
-   ├── static/ 
- ## Static assets (CSS, images)
-   │ └── styles.css 
- ## Custom styles
-   ├── .github/workflows/
- ## CI/CD workflows
-   │ └── deploy.yml
- ## Deployment configuration
-   └── README.md 
+```
+├── index.html        Main resume HTML file
+├── static/           Static assets (CSS, images)
+│└── styles.css       Custom styles
+├── .github/workflows/ CI/CD workflows
+│ └── deploy.yml     Deployment configuration
+   └── README.md
+```
 # This documentation
 ## 🚄 Automatic Deployment
 The site automatically deploys on every push to the `main` branch through GitHub Actions:
